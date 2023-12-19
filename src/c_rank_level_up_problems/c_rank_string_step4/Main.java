@@ -1,23 +1,21 @@
-package c_rank_level_up_problems.c_rank_std_in_out_step4;
+package c_rank_level_up_problems.c_rank_string_step4;
 
 import java.util.Scanner;
 
 /**
- * STEP: 4 入力の配列による保持
+ * STEP: 4 数字の文字列操作（0埋め）
  */
 public class Main {
 	public static void main(String[] args) {
 		// 自分の得意な言語で
 		// Let's チャレンジ！！
 		Scanner sc = new Scanner(System.in);
-		int count = sc.nextInt();
+		String str = sc.next();
+		int length = str.length();
 
-		int out = 0;
-		for (int i = 0; i < count; i++) {
-			int j = sc.nextInt();
-			if (out < j) {
-				out = j;
-			}
+		String out = str;
+		for (int i = 3; i > length; i--) {
+			out = "0" + out;
 		}
 
 		System.out.println(out);

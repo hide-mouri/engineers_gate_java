@@ -1,9 +1,9 @@
-package c_rank_level_up_problems.c_rank_std_in_out_step5;
+package c_rank_level_up_problems.c_rank_string_step1;
 
 import java.util.Scanner;
 
 /**
- * STEP: 5 半角スペース区切りでの出力
+ * STEP: 1 整数と文字列
  */
 public class Main {
 	public static void main(String[] args) {
@@ -12,15 +12,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int count = sc.nextInt();
 
-		String out = "";
 		for (int i = 0; i < count; i++) {
-			out += "paiza";
-
-			if (i < count - 1) {
-				out += " ";
-			}
+			System.out.println(sc.next().length());
 		}
-
-		System.out.println(out);
 	}
 }
