@@ -1,4 +1,4 @@
-package c_rank_level_up_problems.c_rank_string_step6;
+package c_rank_level_up_problems.c_rank_string.step6;
 
 import java.util.Scanner;
 

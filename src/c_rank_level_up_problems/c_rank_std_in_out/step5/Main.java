@@ -1,9 +1,9 @@
-package c_rank_level_up_problems.c_rank_std_in_out_boss;
+package c_rank_level_up_problems.c_rank_std_in_out.step5;
 
 import java.util.Scanner;
 
 /**
- * FINAL問題 標準入出力
+ * STEP: 5 半角スペース区切りでの出力
  */
 public class Main {
 	public static void main(String[] args) {
@@ -12,10 +12,15 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int count = sc.nextInt();
 
+		String out = "";
 		for (int i = 0; i < count; i++) {
-			String name = sc.next();
-			int age = sc.nextInt() + 1;
-			System.out.println(name + " " + age);
+			out += "paiza";
+
+			if (i < count - 1) {
+				out += " ";
+			}
 		}
+
+		System.out.println(out);
 	}
 }

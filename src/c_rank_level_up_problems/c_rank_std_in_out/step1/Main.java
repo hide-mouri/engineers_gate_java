@@ -1,4 +1,4 @@
-package c_rank_level_up_problems.c_rank_std_in_out_step1;
+package c_rank_level_up_problems.c_rank_std_in_out.step1;
 
 import java.util.Scanner;
 

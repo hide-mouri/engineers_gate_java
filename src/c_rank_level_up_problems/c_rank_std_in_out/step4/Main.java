@@ -1,9 +1,9 @@
-package c_rank_level_up_problems.c_rank_std_in_out_step3;
+package c_rank_level_up_problems.c_rank_std_in_out.step4;
 
 import java.util.Scanner;
 
 /**
- * STEP: 3 複数行にわたる入力
+ * STEP: 4 入力の配列による保持
  */
 public class Main {
 	public static void main(String[] args) {
@@ -11,8 +11,15 @@ public class Main {
 		// Let's チャレンジ！！
 		Scanner sc = new Scanner(System.in);
 		int count = sc.nextInt();
+
+		int out = 0;
 		for (int i = 0; i < count; i++) {
-			System.out.println(sc.nextInt());
+			int j = sc.nextInt();
+			if (out < j) {
+				out = j;
+			}
 		}
+
+		System.out.println(out);
 	}
 }

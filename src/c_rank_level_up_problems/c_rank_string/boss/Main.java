@@ -1,4 +1,4 @@
-package c_rank_level_up_problems.c_rank_string_boss;
+package c_rank_level_up_problems.c_rank_string.boss;
 
 import java.util.Scanner;
 

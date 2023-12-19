@@ -1,9 +1,9 @@
-package c_rank_level_up_problems.c_rank_string_step2;
+package c_rank_level_up_problems.c_rank_string.step4;
 
 import java.util.Scanner;
 
 /**
- * STEP: 2 部分文字列
+ * STEP: 4 数字の文字列操作（0埋め）
  */
 public class Main {
 	public static void main(String[] args) {
@@ -11,12 +11,13 @@ public class Main {
 		// Let's チャレンジ！！
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
-		String str2 = sc.next();
+		int length = str.length();
 
-		if (str2.indexOf(str) >= 0) {
-			System.out.println("YES");
-		} else {
-			System.out.println("NO");
+		String out = str;
+		for (int i = 3; i > length; i--) {
+			out = "0" + out;
 		}
+
+		System.out.println(out);
 	}
 }
