@@ -1,4 +1,4 @@
-# EngineersGate Java 課題
+# EngineersGate Javaオリジナル課題
 
 Javaオリジナル課題制作物になります。
 
